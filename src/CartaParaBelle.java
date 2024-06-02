@@ -78,7 +78,7 @@ public class CartaParaBelle {
         String resposta1 = scanner.nextLine();
 
 
-        if (resposta.equalsIgnoreCase("Sim")) {
+        if (resposta1.equalsIgnoreCase("Sim")) {
             System.out.println("E foi...");
 
             CartaDeAmor = """ 
@@ -104,7 +104,7 @@ public class CartaParaBelle {
             System.out.println(Memorias1);
 
 
-        } else if (resposta.equalsIgnoreCase("Não")) {
+        } else if (resposta1.equalsIgnoreCase("Não")) {
             System.out.println("Encerrando a execução do código.");
 
             CartaDeAmor = """ 
@@ -121,8 +121,10 @@ public class CartaParaBelle {
         }
 
 
+        System.out.println("Esta carta foi escrita por: " + Autor);
 
         scanner.close();
+        scanner1.close();
     }
 
 
