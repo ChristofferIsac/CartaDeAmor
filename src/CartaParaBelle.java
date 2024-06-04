@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import java.time.LocalDate;
 
+import UmaCartaDeAmor.ThatsJava.valores.DadosReferenciados;
+import UmaCartaDeAmor.ThatsJava.valores.DadosDaCarta;
+
 public class CartaParaBelle {
 
     public static void main(String[] args) {
