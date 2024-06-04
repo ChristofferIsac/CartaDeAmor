@@ -122,6 +122,8 @@ public class CartaParaBelle {
 
 
         System.out.println("Esta carta foi escrita por: " + Autor);
+        System.out.println("Que Deus nos guarde e juntos possamos fazer disto um amor eterno");
+
 
         scanner.close();
         scanner1.close();
