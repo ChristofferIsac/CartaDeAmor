@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.time.LocalDate;
 
-import UmaCartaDeAmor.ThatsJava.valores.DadosDaCarta;
-import UmaCartaDeAmor.ThatsJava.valores.Dados;
 
 public class CartaParaBelle {
 
@@ -42,19 +40,19 @@ public class CartaParaBelle {
                     Logo após o florescer, surgiram os primeiros espinhos, as nossas primeiras dificuldades,
                     mas que ao cultivar esta flor, vieram a perder as pontas, tornado-se somente detalhes de uma bela rosa e
                     assim regamos e cultivamos o nosso amor. Não somente de flores fizemos nossa relação, mas também de jóias e metais,
-                    como a prata da qual fundiu nossa promessa e como a esmeralda dos seus olhos, que com esta preciosidade obteve minha 
-                    fixação.
+                    como a prata da qual fundiu nossa promessa e como a esmeralda dos seus olhos, que com esta preciosidade obteve a
+                    minha fixação.
                     """;
 
 
             System.out.println(CartaDeAmor);
 
             System.out.println(""" 
-                                        
+                    
                     Tudo começou aqui:""" + DataRelacionamento);
 
             System.out.println("""
-                                        
+                   
                     Foi quando nasceu o nosso amor...""");
 
             String Memorias = "Quer se aprofundar ainda mais na história desse relacionamento?";
