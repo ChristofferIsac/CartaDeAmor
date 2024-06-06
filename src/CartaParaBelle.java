@@ -21,60 +21,48 @@ public class CartaParaBelle {
 
         LocalDate DataRelacionamento = LocalDate.of(2023, 3, 21);
 
+
         String CartaDeAmor;
         CartaDeAmor = """ 
                 
-                Faz muito tempo mesmo meu amor, já se passou mais de 1 ano desde o momento
-                em que nos conhecemos e serão muitos momentos dos quais iremos viver a partir daqui.
-                Quer relembrar todas estas memórias?""";
+                Amor, você se lembra de como esta rosa floresceu? Do exato momento quando esta flor
+                da nossa relação pode então encontrar a luz de nossa própria paixão...? Podemos juntos relembrar
+                cada um destes pequenos momentos dos quais nos trouxeram até aqui...?""";
 
         System.out.println(CartaDeAmor);
+        System.out.println("Você se lembra de quando ela floresceu?");
 
         Scanner scanner = new Scanner(System.in);
         String resposta = scanner.nextLine();
 
-        if (resposta.equalsIgnoreCase("Sim")) {
-            System.out.println("Juntos estaremos sempre...");
+        if (resposta.equalsIgnoreCase("21/03/2023")) {
+            System.out.println("Foi nesta data e foi neste instante... " + DataRelacionamento + ", o momento em que nossa relação começou");
 
             CartaDeAmor = """ 
-                
-                Vamos começar do início, de quando tudo de fato começou, de modo inusitado
-                mas que é inegavél o agir de Deus em nossa relação desde aquele instante.
-                Foi como um dia qualquer, para mim nada diferente ou de grande importância acontecia,
-                até o instante que recebi a sua notificação. Naquele momento ainda não nos conheciamos,
-                na verdade sequer sabíamos que ali nasceria o nosso amor. Mas então, não muito tempo passou e
-                já estavámos juntos, especificamente dia 21/03/2023, quando me tornei o seu namorado e quando
-                você viria a ser muito mais do que somente a minha namorada...""";
+                    Logo após o florescer, surgiram os primeiros espinhos, as nossas primeiras dificuldades,
+                    mas que ao cultivar esta flor, vieram a perder as pontas, tornado-se somente detalhes de uma bela rosa e
+                    assim regamos e cultivamos o nosso amor. Não somente de flores fizemos nossa relação, mas também de jóias e metais,
+                    como a prata da qual fundiu nossa promessa e como a esmeralda dos seus olhos, que com esta preciosidade obteve minha 
+                    fixação.
+                    """;
 
 
             System.out.println(CartaDeAmor);
 
             System.out.println(""" 
-                    
-                    Tudo começou aqui:""" +  DataRelacionamento);
+                                        
+                    Tudo começou aqui:""" + DataRelacionamento);
 
             System.out.println("""
-                    
+                                        
                     Foi quando nasceu o nosso amor...""");
 
             String Memorias = "Quer se aprofundar ainda mais na história desse relacionamento?";
             System.out.println(Memorias);
 
-
-        } else if (resposta.equalsIgnoreCase("Não")) {
-            System.out.println("Encerrando a execução do código.");
-
-            CartaDeAmor = """ 
-                
-                Respeito sua descisão... Se esta é sua resposta imagino que possa estar em um momento ruim amor,
-                porém independente de como esteja, eu sempre estarei contigo. Igualmente Deus sempre lhe guardará.""";
-
-            System.out.println(CartaDeAmor);
-
-
         } else {
-            System.out.println("Amor, para prosseguirmos você pode digitar sim ou não");
-            // Adicione aqui o código que deve ser executado em caso de resposta inválida
+            System.out.println("Qual é a nossa chave, a data em que tudo começou...?");
+
         }
 
         Scanner scanner1 = new Scanner(System.in);
