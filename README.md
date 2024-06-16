@@ -5,4 +5,4 @@
 <p align="right">Este projeto foi desenvolvido como forma de Dedicação e Amor para a minha eterna companheira, Isabelle Belizotti.</p>
 <p align="right">Com as dificuldades das quais estamos passando, achei que este seria o melhor presente que eu poderia lhe dedicar.</p>
 
-<h3 align="right"> Espero que goste :) </h3>
+<h3 align="right">Feito por: Christoffer Isac</h3>
